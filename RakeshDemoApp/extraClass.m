@@ -6,4 +6,24 @@
 //  Copyright © 2016 Satish Garlapati. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "ViewController.h"
+#import "AppDelegate.h"
+
+@interface extraClass ()
+
+@end
+
+@implementation extraClass
+
+
+-(void)checkMethod{
+    
+    
+    ViewController * vc = [[ViewController alloc]init];
+    [vc callMeMethod];
+    
+    NSDictionary * someDict = [[NSDictionary alloc]init];
+}
+
+
+@end

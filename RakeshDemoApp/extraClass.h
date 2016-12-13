@@ -6,8 +6,8 @@
 //  Copyright © 2016 Satish Garlapati. All rights reserved.
 //
 
-#ifndef extraClass_h
-#define extraClass_h
+#import <UIKit/UIKit.h>
 
+@interface extraClass : NSObject
 
-#endif /* extraClass_h */
+@end

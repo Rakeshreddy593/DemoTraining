@@ -9,10 +9,20 @@
 #import "secondViewController.h"
 
 @interface secondViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *Label;
 
 @end
 
 @implementation secondViewController
+
+- (IBAction)newSwitch:(id)sender {
+}
+
+- (IBAction)newBtn:(id)sender {
+    
+    
+    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
