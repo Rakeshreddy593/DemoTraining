@@ -27,7 +27,7 @@
     
     [self callMeMethod];
     
-    self.view.backgroundColor = [UIColor greenColor];
+    self.view.backgroundColor = [UIColor redColor];
     
     _someBtn = [[UIButton alloc]init];
     _someBtn.frame = CGRectMake(10, 10, 100, 100);
